@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const getBaseURL = () => {
   if (import.meta.env.PROD) {
-    return 'https://your-backend-url.onrender.com/api';
+    return 'http://localhost:5000/api';
   }
   return 'http://localhost:5000/api';
 };

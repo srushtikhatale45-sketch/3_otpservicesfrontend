@@ -4,7 +4,7 @@ import { ToastProvider } from './context/ToastContext';
 import { useAuthCheck } from './hooks/useAuth';
 import LoginChoice from './pages/LoginChoice';
 import SMSAuthPage from './pages/SMSAuthPage';
-import WhatsappAuthPage from "./pages/WhatsappAuthPage";
+import WhatsappAuthPage from "./pages/WhatsAppAuthPage";
 import EmailAuthPage from './pages/EmailAuthPage';
 import Dashboard from './components/Dashboard';
 import LoadingSpinner from './components/common/LoadingSpinner';
