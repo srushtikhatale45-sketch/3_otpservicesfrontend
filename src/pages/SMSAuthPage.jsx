@@ -38,7 +38,7 @@ const SMSAuthPage = () => {
         name: userName || 'User' 
       });
       if (data.verified) {
-        showToast('✅ Phone number verified successfully!', 'success');
+        showToast('✅ Phone number is verified successfully!', 'success');
         setTimeout(() => navigate('/dashboard'), 1000);
       } else {
         showToast(data.message || 'Invalid OTP', 'error');
